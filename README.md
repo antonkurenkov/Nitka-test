@@ -9,18 +9,18 @@ This is a [Flask][flask] app for searching in [Wikipedia][wiki].
 It looks as a simple web page with a textbox and a “search” button.
 Hitting “search” searches a term (or phrase) in Wikipedia using its API.
 
--  If the result is found it displays a short description and an image (optionally).
--  If multiple results found, shows “It may refer to:” and list of links. Links are clickable and search more precise term.
--  Else, it shows “term not found”.
+  -  If the result is found it displays a short description and an image (optionally).
+  -  If multiple results found, shows “It may refer to:” and list of links. Links are clickable and search more precise term.
+  -  Else, it shows “term not found”.
 
 ## Setup
 
 The app is written in Python 3.7.4, so you need a proper version be installed.
 It depends on following libs, so you also need:
 
--  `flask`
--  `requests`
--  `re`
+  -  `flask`
+  -  `requests`
+  -  `re`
 
 ## Run
 
