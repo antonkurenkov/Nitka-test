@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+<title>{{title}} - Nitka</title>
+<style>
+.b1 {
+    color: blue;
+    background: white;
+    font-size: 9pt;
+    border: 0px;
+}
+</style>
+<div>
+    <p>It may refer to:</p>
+    {% for refer in refers %}
+    <div>
+        <form method="POST">
+            <input type="submit" value="{{refer}}" class="b1" name="text">
+        </form>
+
+    </div>
+    {% endfor %}
+    <input type="button" onclick="history.back();" value="Back"/>
+</div>
+{% endblock %}
