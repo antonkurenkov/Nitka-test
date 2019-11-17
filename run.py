@@ -1,5 +1,5 @@
 #!flask/bin/python
-from app import *
+from app import app, views
 
 
 if __name__ == '__main__':
