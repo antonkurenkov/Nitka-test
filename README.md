@@ -24,8 +24,8 @@ It depends on following libs, so you also need:
 
 ## Run
 
-Just hit the `run.py` file in the main folder for the Flask server to start.
-The application could be accessed on `http://localhost:5000`.
+Just hit the `run.py` in the main folder for server to start.
+The app be accessed on `http://localhost:5000`.
 
 ## Usage
 
