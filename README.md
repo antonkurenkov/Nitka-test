@@ -31,10 +31,9 @@ The application could be accessed on `http://localhost:5000`.
 
 Input the term or phrase into the textbox and hit the "Search" button.
 
-The app connects to Wikipedia API and returns a simple web page containing data depends on response type.
+The app connects to Wikipedia API and returns a simple web page containing data depending on response type.
 
-If the ID for the response page is '-1', there is no results for the requested phrase.
-Otherwise there should be an article or refers page.
+If the ID for the response page is `'-1'`, there is no results for the requested phrase.
 An empty page be returned.
 
 If the response page has embedded key `'disambiguation'`, the list of referred titles be returned.
