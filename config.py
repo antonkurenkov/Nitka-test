@@ -1,2 +1,2 @@
 CSRF_ENABLED = True
-SECRET_KEY = '78fgh85hf4587hf24hf-2945hf2h4fh24929-g45-g45g45gfln1'
+SECRET_KEY = 'x+?:5@vv!ya~AN=th!Nl?cQ<M{E:(R(tbYn~V"qA0r4RX*!)U#RM=.3B8n5{~Z&'
